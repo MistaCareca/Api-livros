@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @Entity
 @Data
 public class Review {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
